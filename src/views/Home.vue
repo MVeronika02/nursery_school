@@ -4,9 +4,14 @@
       <Header/>
     </div>
 
-    <div class="content">
-      <Content/>
+    <div class="content_grid">
+      <router-view/>
     </div>
+
+    <!-- <div class="content">
+      <Content/>
+      
+    </div> -->
 
     <div class="footer">
       <Footer/>
@@ -62,8 +67,12 @@ body {
   background-size: 100% 90%;
 }
 
-.content {
+.content_grid {
   grid-area: content;
   padding: 0;
+}
+
+.footer {
+  grid-area: footer;
 }
 </style>

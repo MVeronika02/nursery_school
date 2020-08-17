@@ -31,9 +31,9 @@
       </select>
 
       <div class="header_nav">
-        <a class="header_nav_a">Главная</a>
-        <a class="header_nav_a">Контакты</a>
-        <a class="header_nav_a">О проекте</a>
+        <router-link to="/" class="header_nav_a">Главная</router-link>
+        <!-- <router-link  class="header_nav_a">Контакты</router-link> -->
+        <router-link to="/about" class="header_nav_a">О проекте</router-link>
       </div>
 
       <button class="btn_request">Оставить заявку</button>
