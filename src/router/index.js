@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Content from '../views/Content.vue'
 import About from '../components/About.vue'
+import Contacts from '../components/Contacts.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ Vue.use(VueRouter)
           path: '/about',
           name: 'About',
           component: About
+        },
+        {
+          path: '/contacts',
+          name: 'Contacts',
+          component: Contacts
         }
       ]
   }

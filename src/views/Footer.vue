@@ -4,7 +4,7 @@
     <a class="nav_footer_a">Вопросы и ответы</a>
     <a class="nav_footer_a">О Проекте</a>
     <a class="nav_footer_a">Преподаватели</a>
-    <a class="nav_footer_a">Контакты</a>
+    <a class="nav_footer_a_contact">Контакты</a>
   </div>
   <hr color="black">
 
@@ -28,32 +28,38 @@ export default {
 
 <style>
 .nav_footer {
-  margin: 80px 50px 20px;
-
+  margin: 80px 100px 20px;
+  width: 85%;
   /* text-align: center; */
 }
 
 a.nav_footer_a {
-  width: 500px;
+  width: 200px;
   height: 30px;
-  margin-left: 130px;
-  margin-right: 50px;
+  /* margin-left: 130px; */
+  margin-right: 230px;
   font-size: 24px;  
 }
 
+.nav_footer_a_contact {
+  width: 200px;
+  height: 30px;
+  font-size: 24px;
+  /* margin-left: 40px; */
+}
+
 hr {
-  width: 75%;
-  margin-left: 180px;
+  width: 85%;
+  margin-left: 100px;
 }
 
 .soc_networks {
-  margin-left: 180px;
+  margin-left: 100px;
   margin-top: 20px;
 }
 
 .soc_networks_a {
   margin-right: 30px;
-  /* margin-top: 100px; */
 }
 
 </style>
