@@ -59,28 +59,30 @@
         <img src="../assets/img/figures.jpg" class="figures_img" />
           <p class="figures_p">От 1,5 года до 3 лет</p>
           <p class="figures_p">От 3 до 5 лет</p>
-          <p class="figures_p">От 5 до 7 лет</p>
+          <p class="figures_p7">От 5 до 7 лет</p>
       </div>
 
       <div class="time">
         <h4 class="time_h3">ОРИЕНТИРОВКА ПО ВРЕМЕНИ</h4>
           <p class="time_p">От 3 до 5 лет</p>
-          <p class="time_p">От 5 до 7 лет</p>
         <img src="../assets/img/time.jpg" class="time_img" />
+        
+        <p class="time_p">От 5 до 7 лет</p>
       </div>
 
       <div class="count">
         <h4 class="count_h3">КОЛИЧЕСТВО И СЧЁТ</h4>
         <img src="../assets/img/count.jpg" class="count_img" />
         <p class="count_p">От 3 до 5 лет</p>
-        <p class="count_p">От 5 до 7 лет</p>
+        <p class="count_p7">От 5 до 7 лет</p>
       </div>
 
       <div class="write">
         <h4 class="write_h3">ОБУЧЕНИЕ ПРОПИСИ</h4>
-        <img src="../assets/img/write.jpg" class="write_img" />
+        
         <p class="write_p">От 3 до 5 лет</p>
         <p class="write_p">От 5 до 7 лет</p>
+        <img src="../assets/img/write.jpg" class="write_img" />
       </div>
 
       <div class="read">
@@ -279,6 +281,7 @@ export default {
 
 .logic_h3 {
   margin-left: 30px;
+  margin-top: 10px;
   width: 250px;
   height: 30px;
 }
@@ -317,7 +320,7 @@ export default {
 
 .speech_h3 {
   margin-left: 50px;
-  margin-top: 40px;
+  margin-top: 50px;
   width: 250px;
   height: 30px;
 }
@@ -374,6 +377,13 @@ export default {
   margin-top: -40px;
 }
 
+.figures_p7 {
+  height: 20px;
+  width: 140px;
+  margin-left: -20px;
+  margin-top: -40px;
+}
+
 .time {
   display: flex;
   flex-wrap: wrap;
@@ -385,8 +395,7 @@ export default {
 }
 
 .time_h3 {
-  margin-left: 50px;
-  margin-top: 40px;
+  margin: 40px 0 40px 60px;
   width: 250px;
   height: 30px;
 }
@@ -394,15 +403,15 @@ export default {
 .time_img {
   width: 130px;
   height: 80px;
-  /* margin-left: 40px; */
-  margin-top: -50px;
+  /* margin-left: 150px; */
+  margin-top: -70px;
 }
 
 .time_p {
   height: 20px;
   width: 140px;
-  margin-left: 20px;
-  margin-top: -30px;
+  margin-left: 40px;
+  margin-top: -60px;
 }
 
 .count {
@@ -417,8 +426,8 @@ export default {
 }
 
 .count_h3 {
-  margin-left: 30px;
-  margin-top: 50px;
+  margin-left: 40px;
+  margin-top: 40px;
   width: 250px;
   height: 30px;
 }
@@ -434,7 +443,14 @@ export default {
   height: 20px;
   width: 140px;
   margin-left: 20px;
-  margin-top: -30px;
+  margin-top: -40px;
+}
+
+.count_p7 {
+  height: 20px;
+  width: 140px;
+  margin-left: 160px;
+  margin-top: -60px;
 }
 
 .write {
@@ -448,7 +464,7 @@ export default {
 
 .write_h3 {
   margin-left: 50px;
-  margin-top: 30px;
+  margin-top: 40px;
   width: 250px;
   height: 30px;
 }
@@ -456,15 +472,15 @@ export default {
 .write_img {
   width: 130px;
   height: 80px;
-  margin-left: 10px;
-  margin-top: -50px;
+  margin-left: 80px;
+  margin-top: -90px;
 }
 
 .write_p {
   height: 20px;
   width: 140px;
   margin-left: 20px;
-  margin-top: -40px;
+  margin-top: -60px;
 }
 
 .read {
@@ -479,7 +495,7 @@ export default {
 }
 
 .read_h3 {
-  margin-left: 50px;
+  margin-left: 100px;
   margin-top: 30px;
   width: 250px;
   height: 30px;
@@ -488,14 +504,14 @@ export default {
 .read_img {
   width: 130px;
   height: 80px;
-  margin-left: 10px;
-  margin-top: -50px;
+  margin-left: 80px;
+  margin-top: -60px;
 }
 
 .read_p {
   height: 20px;
-  width: 140px;
-  margin-left: 20px;
+  width: 120px;
+  margin-left: 35px;
   margin-top: -40px;
 }
 
