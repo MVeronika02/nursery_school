@@ -1,0 +1,21 @@
+<svg width="360" height="220" viewBox="0 0 383 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<g clip-path="url(#clip1)">
+<ellipse rx="83.7517" ry="63.1465" transform="matrix(0.999954 -0.00956046 0.00873288 0.999962 87.4068 140.484)" fill="#EF9EB2"/>
+<ellipse rx="76.2291" ry="63.1465" transform="matrix(0.999954 -0.00956046 0.00873288 0.999962 97.4677 86.5398)" fill="#EF9EB2"/>
+<ellipse rx="82.7487" ry="63.1465" transform="matrix(0.999954 -0.00956046 0.00873288 0.999962 174.049 69.1635)" fill="#EF9EB2"/>
+<ellipse rx="69.208" ry="61.1885" transform="matrix(0.999954 -0.00956046 0.00873288 0.999962 256.871 77.1832)" fill="#EF9EB2"/>
+<ellipse rx="69.208" ry="61.1885" transform="matrix(0.999954 -0.00956046 0.00873288 0.999962 302.253 105.142)" fill="#EF9EB2"/>
+<ellipse rx="69.208" ry="61.1885" transform="matrix(0.999954 -0.00956046 0.00873288 0.999962 265.596 157.383)" fill="#EF9EB2"/>
+<ellipse rx="69.208" ry="61.1885" transform="matrix(0.999954 -0.00956046 0.00873288 0.999962 178.415 167.028)" fill="#EF9EB2"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="378.469" height="226.432" fill="white" transform="translate(0 7.70508) rotate(-1.16654)"/>
+</clipPath>
+<clipPath id="clip1">
+<rect width="368.106" height="222.237" fill="white" transform="matrix(0.999954 -0.00956046 0.00873288 0.999962 2.49191 7.6543)"/>
+</clipPath>
+</defs>
+</svg>
